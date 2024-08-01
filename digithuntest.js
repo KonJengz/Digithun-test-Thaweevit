@@ -50,8 +50,7 @@ function sum(arr, k) {
   
     for (let i = 0; i < arr.length; i++) {
       let arrsum = arr.slice(i, i + k).reduce((acc, cur) => acc + cur)
-      // console.log(arrsum)
-      // const arrsum2 = arrsum.reduce((acc,cur) => acc + cur)
+    
       if (arrsum > num) {
         num = arrsum
       }
